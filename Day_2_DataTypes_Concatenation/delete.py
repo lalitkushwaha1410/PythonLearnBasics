@@ -4,6 +4,7 @@ b=200;
 print(a);
 print(b);
 
+
 del a; # delete variable a
 # del is used to delete the variable
 print(a);
