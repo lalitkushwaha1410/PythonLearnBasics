@@ -1,2 +1,2 @@
-a = True ;
-print(type(a));
+a = True
+print(type(a))
