@@ -36,7 +36,11 @@ print(sum_function(4,6,7,8,9,2))
 def myfun(a,b,c):
     print(a,b,c)
 
-myfun(10,20,30) # positinal arguements
+myfun(10,20,30) # positional arguments
 
 myfun(c=30,a=50,b=80)
 myfun(20,70,c=40) # position argument must come before keyword argument
+# c=50 this is keyword argument
+
+# Function returning multiple values means collection
+
