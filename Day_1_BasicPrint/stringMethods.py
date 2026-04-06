@@ -1,4 +1,5 @@
 from traceback import print_tb
+from unittest.util import three_way_cmp
 
 str = "Welcome to Python"
 
@@ -44,9 +45,13 @@ print(s.isalnum());
 s = "lalit123";
 print(s.isalpha());
 
+#isdigit () :
+#isNumeric()
 
-
-
+#split() : splitting strings usign delimeters like space , @ & ( ) _
+s = "one,two,three"
+lst = s.split(",")
+print(lst[1])
 
 
 
