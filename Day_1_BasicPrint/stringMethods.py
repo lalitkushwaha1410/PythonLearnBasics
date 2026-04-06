@@ -54,5 +54,5 @@ lst = s.split(",")
 print(lst[1])
 
 
-
+# immutability (cant change) string , mutability(can be changed) list
 
